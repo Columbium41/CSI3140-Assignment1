@@ -3,3 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
+/* ---------- Element Styling ---------- */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 1.5em 0;
+}
+
+/* ---------- CSS Classes ---------- */
+
+.mb2 {
+  margin-bottom: 2em;
+}

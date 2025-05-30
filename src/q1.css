@@ -1,0 +1,9 @@
+.border {
+    border: 1px solid red;
+}
+
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
