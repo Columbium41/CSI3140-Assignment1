@@ -8,6 +8,43 @@
     <title>CSI3140 Assignment 1 - Q3</title>
 </head>
 <body>
-    <script type="script" src="src/script.js" defer></script>
+
+    <div class="registration-form">
+        <h2>Website Registration Form</h2>
+
+        <form>
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" name="email" required>
+
+            <details>
+                <summary>Optional: Your Year in University</summary>
+                <label for="year">
+                    Select your year:
+                    <select id="year" name="year">
+                        <option value="">--Please choose an option--</option>
+                        <option value="notyet">Not yet in university</option>
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                        <option value="graduate">Graduate</option>
+                    </select>
+                </label>
+            </details>
+
+            <div class="form-buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="src/script.js" defer></script>
 </body>
 </html>
