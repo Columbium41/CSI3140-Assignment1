@@ -6,59 +6,6 @@
   <link rel="stylesheet" href="src/style.css">
   <link rel="stylesheet" href="./q5.css">
   <title>CSI3140 Assignment 1 - Q5</title>
-  <style>
-    
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-      margin: 0;
-      padding: 20px;
-    }
-
-    h1, h2 {
-      font-family: 'Georgia', serif;
-    }
-
-    header, section, footer {
-      margin-bottom: 30px;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    button {
-      padding: 8px 12px;
-      background-color: #007acc;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #005fa3;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-
-    .hidden {
-      display: none;
-    }
-  </style>
 </head>
 <body>
 
@@ -78,13 +25,13 @@
   </section>
 
   <section>
-  <h2>Experience</h2>
-  <p>Web Developer Intern at Statistics Canada (Jan–April 2025)</p>
-  <p style="margin-top: 10px;">
-    Redesigned the organization’s website for accessibility and mobile responsiveness.
-    Collaborated with a team of 5 developers using Git and Confluence.
-  </p>
-</section>
+    <h2>Experience</h2>
+    <p>Web Developer Intern at Statistics Canada (Jan–April 2025)</p>
+    <p style="margin-top: 10px;">
+      Redesigned the organization’s website for accessibility and mobile responsiveness.
+      Collaborated with a team of 5 developers using Git and Confluence.
+    </p>
+  </section>
 
   <section>
     <h2>Skills</h2>
@@ -101,8 +48,23 @@
     <p>LinkedIn: linkedin.com/in/janedoe</p>
   </section>
 
-  
-  
+  <button id="show-more-button">
+    Show More
+  </button>
 
+  <section id="form-section">
+    <form id="form">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+
+      <label for="msg">Feel free to leave a message!</label>
+      <textarea name="msg" id="msg" rows="5" cols="40"></textarea>
+
+      <p id="error"></p>
+      <input type="submit" />
+    </form>
+  </section>
+
+  <script type="text/javascript" src="./script.js" defer></script>
 </body>
 </html>
